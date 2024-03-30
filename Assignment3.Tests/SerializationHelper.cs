@@ -50,39 +50,7 @@ namespace Assignment3.Tests
             }
         }
 
-        //// Serialize the SLL object to binary format
-        //public static void Serialize(SLL sll, string fileName)
-        //{
-        //    try
-        //    {
-        //        using (FileStream stream = File.Create(fileName))
-        //        {
-        //            DataContractSerializer serializer = new DataContractSerializer(typeof(SLL), new Type[] { typeof(User), typeof(Node) });
-        //            serializer.WriteObject(stream, sll);
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine("Serialization failed: " + ex.Message);
-        //    }
-        //}
-
-        //// Deserialize the SLL object from binary format
-        //public static SLL Deserialize(string fileName)
-        //{
-        //    try
-        //    {
-        //        using (FileStream stream = File.OpenRead(fileName))
-        //        {
-        //            DataContractSerializer serializer = new DataContractSerializer(typeof(SLL), new Type[] { typeof(User), typeof(Node) });
-        //            return (SLL)serializer.ReadObject(stream);
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine("Deserialization failed: " + ex.Message);
-        //        return null;
-        //    }
+       
     }
     }
 
